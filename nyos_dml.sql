@@ -18,4 +18,10 @@
 --
 	INSERT INTO Usuario (Nome,email,senha,dataNascimento,IDAcesso) VALUES
 	('TESTE','TESTE@TESTE','12345678910','',1);
+
+--
+--
+	INSERT INTO Evento(dataEvento,Capacidade, IDLocalizacao,IDCategoria) VALUES
+	('2020-08-25T22:00:00',10,1,1);
+
 --
